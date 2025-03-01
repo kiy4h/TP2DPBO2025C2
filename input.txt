@@ -1,0 +1,11 @@
+10
+1 DRESS_TIKUS_NAKAL 110000 9 Dress Satin Abu-abu Tikus M Mouse_Mischief
+2 Prancing_Pony_Jeans 80000 11 Celana Jeans Coklat Kuda L Pony_Prank
+3 Bold_Bear_Sweater 130000 6 Sweater Wool Coklat Beruang XL Bear_Bold
+4 Sneaky_Fox_Cap 30000 20 Topi Felt Jingga Rubah S Fox_Fun
+5 Cozy_Kitty_Mittens 25000 25 Aksesoris Knit Putih Kucing M Kitty_Kick
+6 Spicy_Kitten_T-Shirt 95000 8 T-Shirt Cotton Merah Kucing S Mischief_Mode
+7 Lil_Meowmeow_Hoodie 120000 12 Hoodie Fleece Pink Kucing M Cute_Claw
+8 Fluffy_Panda_Romper 85000 10 Romper Cotton Hitam Panda L Panda_Pals
+9 Rebel_Pup_Denim_Jacket 150000 7 Jaket Denim Biru Anjing XL Doggy_Dare
+10 Cheeky_Goat_Tee 50000 15 T-Shirt Polyester Coklat Kambing S Goat
