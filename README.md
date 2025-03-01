@@ -58,11 +58,16 @@ javac Main.java && java Main < ../../input.txt
 ![alt text](Java/Dokumentasi/image.png)
 
 ### Dokumentasi PHP
-tampilan biasa:
+Tampilan biasa:
+
 ![](PHP/Dokumentasi/image.png)
-setelah add (berhasil):
+
+Setelah add (berhasil):
+
 ![](<PHP/Dokumentasi/add berhasil.png>)
-setelah add (gagal, id sudah ada):
+
+Setelah add (gagal, id sudah ada):
+
 ![](<PHP/Dokumentasi/add gagal.png>)
 
 ### Dokumentasi Python
