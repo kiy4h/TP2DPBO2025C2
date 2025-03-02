@@ -43,26 +43,20 @@
             // Check if image file is a actual image or fake image
             $check = getimagesize($_FILES["foto_produk"]["tmp_name"]);
             if ($check !== false) {
-                // Check file size (5MB max)
-                if ($_FILES["foto_produk"]["size"] <= 5000000) {
-                    // Allow certain file formats
-                    if ($imageFileType == "jpg" || $imageFileType == "png" || $imageFileType == "jpeg" || $imageFileType == "gif") {
-                        if (move_uploaded_file($_FILES["foto_produk"]["tmp_name"], $target_file)) {
-                            $foto_produk = $target_file;
-                        } else {
-                            echo "<script>alert('Maaf, terjadi kesalahan saat mengupload file.');</script>";
-                            $foto_produk = '';
-                        }
+                // Allow certain file formats
+                if ($imageFileType == "jpg" || $imageFileType == "png" || $imageFileType == "jpeg" || $imageFileType == "gif") {
+                    if (move_uploaded_file($_FILES["foto_produk"]["tmp_name"], $target_file)) {
+                        $foto_produk = $target_file;
                     } else {
-                        echo "<script>alert('Maaf, hanya file JPG, JPEG, PNG & GIF yang diperbolehkan.');</script>";
+                        echo "<script>alert('gagal upload foto produk: terjadi kesalahan saat mengupload file.');</script>";
                         $foto_produk = '';
                     }
                 } else {
-                    echo "<script>alert('Maaf, file terlalu besar. Maksimal 5MB.');</script>";
+                    echo "<script>alert('gagal upload foto produk:  hanya file JPG, JPEG, PNG & GIF yang diperbolehkan.');</script>";
                     $foto_produk = '';
                 }
             } else {
-                echo "<script>alert('File bukan gambar.');</script>";
+                echo "<script>alert('gagal upload foto produk: file bukan gambar.');</script>";
                 $foto_produk = '';
             }
         } else {
