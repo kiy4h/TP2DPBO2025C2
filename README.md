@@ -66,10 +66,6 @@ Setelah add (berhasil):
 
 ![](<PHP/Dokumentasi/add berhasil.png>)
 
-Setelah add (gagal, id sudah ada):
-
-![](<PHP/Dokumentasi/add gagal.png>)
-
 ### Dokumentasi Python
 ```
 cd Python/Program/
